@@ -33,6 +33,17 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus.snapshots</id>
+            <url>http://192.168.2.9:8081/repository/nexus-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus.releases</id>
+            <url>http://192.168.2.9:8081/repository/nexus-releases/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>

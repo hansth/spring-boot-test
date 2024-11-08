@@ -1,1 +1,6 @@
-spring.application.name=spring-boot-test
+spring:
+  application:
+    name: spring-boot-test
+server:
+  port: 8090
+
